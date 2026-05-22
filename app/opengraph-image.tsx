@@ -13,6 +13,8 @@ export default function OpenGraphImage() {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
+          gap: 16,
           height: "100%",
           width: "100%",
           alignItems: "center",
@@ -24,6 +26,15 @@ export default function OpenGraphImage() {
         }}
       >
         Siam On Cloud
+        <div
+          style={{
+            fontSize: 34,
+            fontWeight: 500,
+            color: "#bae6fd",
+          }}
+        >
+          Elevation of Future Journeys
+        </div>
       </div>
     ),
     size

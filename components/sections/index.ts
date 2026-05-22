@@ -1,7 +1,8 @@
 export { AboutCompanySection } from "./AboutCompanySection";
-export { AISolutionsSection } from "./AISolutionsSection";
+export { default as AboutSection } from "./AboutSection";
+export { default as AISolutionsSection } from "./AISolutionsSection";
 export { CTASection } from "./CTASection";
 export { FeaturesSection } from "./FeaturesSection";
-export { HeroSection } from "./HeroSection";
-export { ServicesSection } from "./ServicesSection";
-export { TravelSolutionsSection } from "./TravelSolutionsSection";
+export { default as HeroSection } from "./HeroSection";
+export { default as ServicesSection } from "./ServicesSection";
+export { default as TravelSolutionsSection } from "./TravelSolutionsSection";

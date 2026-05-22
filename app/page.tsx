@@ -1,5 +1,5 @@
 import {
-  AboutCompanySection,
+  AboutSection,
   AISolutionsSection,
   CTASection,
   FeaturesSection,
@@ -18,7 +18,7 @@ export default function Home() {
         <HeroSection />
         <ServicesSection />
         <FeaturesSection />
-        <AboutCompanySection />
+        <AboutSection />
         <AISolutionsSection />
         <TravelSolutionsSection />
         <CTASection />

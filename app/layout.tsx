@@ -13,7 +13,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = buildMetadata();
+export const metadata: Metadata = buildMetadata({
+  title: "Siam On Cloud | Elevation of Future Journeys",
+  description:
+    "Siam On Cloud combines air ticketing, travel services, AI automation, and digital solutions for faster, smarter business growth.",
+});
 
 export default function RootLayout({
   children,
